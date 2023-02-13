@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+label,input{
+    display: block;
+    line-height: 30px;
+    height: 30px;
+    outline: none;
+    font-size: 13pt;
+    width: 100%;
+}
+
+form{
+    width: 330px;
+    background-color: rgb(30, 156, 133);
+    padding: 20px;
+    margin: 30px auto;
+    border-radius: 4px;
+
+}
+input[type=submit]{
+    margin-top: 10px;
+    cursor: pointer;
+    background-color:rgb(129, 230, 211) ;
+    border: 0px;
+    border-radius: 4px;
+
+}
+input[type=submit]:hover{
+    background-color:rgb(18, 100, 85); 
+}
+
+h2{
+    text-align: center;
+   
+}
+.primeira {
+    float: left;
+    background:linear-gradient(to top,rgb(53, 152, 134) ,rgba(146, 251, 232, 0.752));
+    width: 35%;
+    height: 500px;
+   
+
+}
+.segunda{ 
+    width: 65%;
+    float: left;
+    background-color: rgba(143, 236, 219, 0.752);
+    height: 500px;
+    margin-top: 0px;
+
+   
+}
+table{
+    background-color: aliceblue;
+    width: 90%;
+    margin: auto;
+    margin: 30px auto;
+}
+tr{
+    line-height: 30px;
+
+}
+tr#titulo{
+    font-weight: bold;
+    background-color: rgb(30, 156, 133);
+    color: white;
+
+}
+td{
+    padding: 0px 5px;
+    
+}
+a{
+    background-color: rgb(30, 156, 133);
+    color: white;
+    padding: 5px;
+    margin: 0px 5px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+a:hover{
+    background-color:rgb(18, 100, 85); ;
+}
